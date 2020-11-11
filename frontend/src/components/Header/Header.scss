@@ -1,0 +1,38 @@
+.header {
+  background-size: cover;
+  background-color: #001428;
+  color: #ffffff;
+  height: 44px;
+  width: 100%;
+  display: flex;
+  padding: 0 10px;
+  font-size: 15px;
+  font-weight: 700;
+
+  .layout {
+    width: 1180px;
+    display: block;
+  }
+
+  .navbar {
+    display: flex;
+    position: relative;
+    padding: 0;
+    width: 100%;
+  }
+
+  .navbar-brand {
+    text-align: left;
+    padding-right: 40px;
+
+    .logo img {
+      width: auto;
+      padding-bottom: 5px;
+    }
+  }
+
+  .nav-menu {
+    display: inline-block;
+    position: relative;
+  }
+}
